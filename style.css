@@ -1,0 +1,62 @@
+body
+{
+    background: url(Math.webp);
+}
+
+	.login_div1 , .login_div2
+	{
+		background: linear-gradient(0deg, rgba(0,69,255,1) 0%, rgba(255,255,255,1) 48%, rgba(0,13,255,1) 100%);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+#Q
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#player1_score , #player2_score , #player1_name , #player2_name
+{
+	color: rgb(11, 25, 113);
+	font-size: 20px;
+}
+#output
+{
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#question
+{
+border-radius: 10px;
+padding: 5px;
+float: none;
+text-align: center;
+}
+h1
+{
+    color: rgb(10, 29, 158);
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+h3
+{
+color: rgb(11, 25, 113);  
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+#welcome
+{
+color: rgb(11, 25, 113);
+}
+

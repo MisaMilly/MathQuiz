@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MathQuiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4><span id="player2_score"></span>
+
+<div class="container">
+    <center>
+        <h3 id="Welcome">Now let's start</h3>
+        <h1>The Math Quiz</h1>
+        <h3 id="player_question"></h3>
+        <h3 id="player_answer"></h3>
+        <br>
+
+        <h2>First Number</h2>
+        <div style="background: linear-gradient(0deg, rgba(0,69,255,1) 0%, rgba(255,255,255,1) 48%, rgba(0,13,255,1) 100%);" id="question" class="col-lg-6">
+        <input style="font-size: 25px; width: 100%;" type="text" id="Get_o" class="form-control" placeholder="Enter 1st no.">
+    </div>
+
+    <h2>Second Number</h2>
+        <div style="background: linear-gradient(0deg, rgba(0,69,255,1) 0%, rgba(255,255,255,1) 48%, rgba(0,13,255,1) 100%);" id="question" class="col-lg-6">
+        <input style="font-size: 25px; width: 100%;" type="text" id="Get_t" class="form-control" placeholder="Enter 2nd no.">
+    </div>
+<br>
+
+<button onclick="send()" class="btn btn-primary" style="width: 35%;">Send</button>
+<br><br>
+
+        <div style="background: linear-gradient(0deg, rgba(0,69,255,1) 0%, rgba(255,255,255,1) 48%, rgba(0,13,255,1) 100%);" id="output" class="col-lg-6"></div>
+    </center>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
